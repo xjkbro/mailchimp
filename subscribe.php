@@ -2,8 +2,8 @@
 
 require('mailchimp/Mailchimp.php');    // You may have to modify the path based on your own configuration.
 
-$api_key = "db7b60c3b78cdecce2e069f0fce2d1e1-us6";
-$list_id = "4d43580b5a";
+$api_key = "";
+$list_id = "";
 
 $Mailchimp = new Mailchimp( $api_key );
 $Mailchimp_Lists = new Mailchimp_Lists( $Mailchimp );
